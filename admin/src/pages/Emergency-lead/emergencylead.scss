@@ -1,0 +1,41 @@
+/* NearbyHospitals.css */
+
+.emergency-leads {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .emergency-leads h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .leads-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .lead {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    max-width: calc(25.33% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lead h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .lead img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
